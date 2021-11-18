@@ -1,0 +1,21 @@
+{
+  "name": "middleware-api-restriction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xBarikadex/Middleware-Api-Restriction.git"
+  },
+  "author": "Barik Boley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xBarikadex/Middleware-Api-Restriction/issues"
+  },
+  "homepage": "https://github.com/xBarikadex/Middleware-Api-Restriction#readme",
+  "dependencies": {
+    "morgan": "^1.10.0",
+    "node": "^17.1.0",
+    "nodemon": "^2.0.15"
+  }
+}

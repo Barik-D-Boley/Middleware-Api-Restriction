@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <p>You can only request the api 5 times with each email</p>
+    <form>
+        <input type='text' id='emailInput' placeholder='bboley269@west-mec.com'><br>
+        <input type='submit' value='Submit' onclick='newPage()'>
+    </form>
+
+    <script>
+        function newPage() {
+            console.log(`http://localhost:5000/api/menu?email=${document.getElementById('emailInput').value}`);
+            window.open(`http://localhost:5000/api/menu?email=${document.getElementById('emailInput').value}`);
+        }
+    </script>
+</body>
+</html>
