@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/xBarikadex/Middleware-Api-Restriction.git"
   },
+  "scripts": {
+    "start": "npx nodemon main.js"
+  },
   "author": "Barik Boley",
   "license": "ISC",
   "bugs": {
