@@ -2,13 +2,16 @@
   "name": "middleware-api-restriction",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xBarikadex/Middleware-Api-Restriction.git"
   },
   "scripts": {
-    "start": "npx nodemon main.js"
+    "start": "node app.js"
   },
   "author": "Barik Boley",
   "license": "ISC",

@@ -4,6 +4,8 @@ const path = require('path')
 const { menu } = require('./util/data')
 const authorize = require('./util/authorizedUser')
 
+const port = process.env.PORT || 5000;
+
 // Uses the authorize file in every app.get that has '/api' in it
 app.use('/api', authorize)
 
@@ -206,6 +208,6 @@ app.get('/api/menu/v1/query', (req, res) => {
     res.status(200).json(sortedMenu)
 })
 
-app.listen(5000, () => {
+app.listen(port, () => {
     console.log('Server is listening on port 5000....');
 })
