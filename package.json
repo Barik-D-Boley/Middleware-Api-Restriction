@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/xBarikadex/Middleware-Api-Restriction#readme",
   "dependencies": {
+    "express": "^4.17.2",
     "heroku": "^7.59.2",
     "morgan": "^1.10.0",
     "node": "^17.1.0",
